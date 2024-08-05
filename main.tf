@@ -11,7 +11,6 @@ resource "aws_s3_bucket" "youtube-analysis-bucket" {
   }
 }
 
-
 #Resource to disable versioning 
 resource "aws_s3_bucket_versioning" "versioning_demo" {
   bucket = aws_s3_bucket.youtube-analysis-bucket.id
