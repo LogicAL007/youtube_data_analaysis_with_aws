@@ -5,6 +5,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "youtube-analysis-bucket" {
   bucket  = "bigdata-analysis-with-youtube-data-test"
+  
   tags    = {
 	Name = "S3Bucket"
   }
