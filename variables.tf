@@ -10,5 +10,5 @@ variable "glue_service_role" {
 }
 
 variable "glue_catalog" {
-  default = "Youtube_analysis_glue_catalog_db"
+  default = "youtube_analysis_glue_catalog_db"
 }
