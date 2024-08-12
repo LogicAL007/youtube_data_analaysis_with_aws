@@ -1,7 +1,9 @@
 variable "bucket-name" {
   default = "bigdata-analysis-with-youtube-data-test"
 }
-
+variable "bucket-cleaned" {
+  default = "bigdata-analysis-with-youtube-data-cleaned"
+}
 variable "region_name" {
   default = "us-east-1"
 }

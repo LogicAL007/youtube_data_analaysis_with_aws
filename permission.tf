@@ -30,6 +30,8 @@ resource "aws_iam_policy" "s3_policy" {
       "Resource": [
         "arn:aws:s3:::bigdata-analysis-with-youtube-data-test",
         "arn:aws:s3:::bigdata-analysis-with-youtube-data-test/*"
+        "arn:aws:s3:::bigdata-analysis-with-youtube-data-cleaned",
+        "arn:aws:s3:::bigdata-analysis-with-youtube-data-cleaned/*"
       ]
     }
   ]
