@@ -62,7 +62,7 @@ In the ETL (Extract, Transform, Load) pipeline for YouTube data analysis, each s
      - **S3 API Upload:** This data is uploaded to an Amazon S3 bucket using the AWS S3 API or other data transfer methods, in this case we are uploading from our local machine.
      - **Landing Area:** The uploaded data is stored in a specific folder structure in S3 (Landing Area) that organizes it by date, region, or other relevant dimensions.
      - **Lambda Trigger:** An AWS Lambda function may be triggered by the arrival of new data in the S3 bucket. This function initiates the data processing stage by passing the event to directly to AWS data catalog as a parquet file after normalization.
-
+![alt text](<carbon (16).png>) --> ![alt text](<Screenshot 2024-08-14 004256.png>)
 ### 2. **Data Processing (Transform)**
    - **Objective:** To clean, enrich, and transform the raw data into a more structured format suitable for analysis.
    - **Process:**
