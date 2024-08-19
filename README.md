@@ -92,6 +92,7 @@ In the ETL (Extract, Transform, Load) pipeline for YouTube data analysis, each s
 ## Data source
 
 This dataset used is a daily record of the top trending YouTube videos.This dataset includes several months (and counting) of data on daily trending YouTube videos. Data is included for the US, GB, DE, CA, and FR regions (USA, Great Britain, Germany, Canada, and France, respectively), with up to 200 listed trending videos per day you can download the data from [here](https://www.kaggle.com/code/arslanali4343/trending-video-analysis/input) and it looks like this :
+
 ![alt text](image.png)
 
 ## Steps in setting up the Project
