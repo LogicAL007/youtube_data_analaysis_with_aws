@@ -42,7 +42,8 @@ Before you begin, ensure you have the following:
 
 The architecture for this project is as follows:
 
-![Architecture Diagram]()
+![alt text](<youtube_data (1).jpg>)
+
 ## Problem Statement
 
 The YouTube data collected from various sources is in raw, unclean formats, consisting of both CSV and JSON files. The CSV files contain video metadata across different regions, while the JSON files store category mappings and other hierarchical information. However, these datasets are fragmented and inconsistent, making it difficult to perform meaningful analysis.
@@ -92,7 +93,6 @@ In the ETL (Extract, Transform, Load) pipeline for YouTube data analysis, each s
 ## Data source
 
 This dataset used is a daily record of the top trending YouTube videos.This dataset includes several months (and counting) of data on daily trending YouTube videos. Data is included for the US, GB, DE, CA, and FR regions (USA, Great Britain, Germany, Canada, and France, respectively), with up to 200 listed trending videos per day you can download the data from [here](https://www.kaggle.com/code/arslanali4343/trending-video-analysis/input) and it looks like this :
-
 ![alt text](image.png)
 
 ## Steps in setting up the Project
